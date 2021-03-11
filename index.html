@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang=fr dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>CMPN</title>
+        <link rel="stylesheet" href="assets/style/global.css">
+        <link rel="stylesheet" href="assets/style/navbar.css">
+        <link rel="stylesheet" href="assets/style/pages.css">
+        <link rel="stylesheet" href="assets/style/contact.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="assets/images/backgrounds/logo.png" id="logo" />
+                <ul id="nav_left">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                </ul>
+                <ul id="nav_right">
+                    <li><a href="https://www.linkedin.com/in/quentin-campion-221738198/"><img src="assets/images/linkedin_icon.png" alt="linkedin" class="glow" target="_blank" rel="noreferrer noopener"></a></li>
+                    <li><a href="mailto:quentin.cmpn@gmail.com"><img src="assets/images/mail_icon.png" alt="mail" class="glow"></a></li>
+                    <li><button type="button" name="Me contacter" id="contact_button">ME CONTACTER</button></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="accueil" class="page">
+                <div class="fake_navbar"></div>
+                <div id="accueil_left">
+                    <div id="accueil_left_up">
+                        <h1>Quentin Campion</h1>
+                        <h2>Web designer</h2>
+                    </div>
+                    <div id="accueil_left_down">
+                        <h3>Je suis en première année d'études à Digital Campus</h3>
+                    </div>
+                </div>
+                <div id="accueil_right">
+                    <!-- TODO <img src="assets/images/backgrounds/CMPN.svg" alt="CMPN"> -->
+                </div>
+            </div>
+            <div id="projects" class="page">
+                <div class="fake_navbar"></div>
+                <h1>Mes projets</h1>
+            </div>
+            <div id="about" class="page">
+                <div class="fake_navbar"></div>
+                <h1>À Propos</h1>
+            </div>
+            <form id="contact_form">
+                <label for="mail">Adresse mail:</label><br>
+                <input type="email" id="mail" name="mail" value=""><br>
+                <label for="topic">Sujet:</label><br>
+                <input type="text" id="topic" name="topic" value=""><br>
+                <label for="text">Message:</label><br>
+                <textarea name="text" rows="8" cols="80" id="body"></textarea>
+                <br>
+                <button type="button" name="Envoyer" id="contact_form_send">Envoyer</button>
+            </form>
+        </main>
+        <footer></footer>
+        <script src="assets/scripts/contactButton.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+#contact_form{
+    border-radius: 10px;
+    padding: 5px;
+    width : 30vw;
+    height : 30vh;
+    background-color: gray;
+    position : fixed;
+    top : 75px;
+    right : 0;
+    visibility: hidden;
+}
+
+#contact_form > textarea{
+    width: 95%;
+}
+
+#contact_form > button{
+    position: absolute;
+    right: 5%;
+    margin-top: 20px;
+    width: 15%;
+    height: 2em;
+}

@@ -1,0 +1,96 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* definition espacement navbar --------------------------------------*/
+
+nav{
+    display: flex;
+    width: 100vw;
+    height: 75px;
+}
+
+nav > ul{
+    display: flex;
+    width:50%;
+    height: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+nav > ul > li{
+    text-align: center;
+}
+
+/* gestion espacement de la navbar ------------------------------------------------*/
+
+#nav_right{
+    justify-content: flex-end;
+}
+
+#nav_right > li{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#nav_left{
+    justify-content: flex-start;
+}
+
+#nav_left > li {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+/* Liens dans la navbar à gauche ------------------------------------------------*/
+
+#nav_left > li > a:visited{
+    color: white;
+}
+
+#nav_left > li > a:hover{
+    color: #FFD03B;
+}
+
+#nav_left > li > a{
+    color: white;
+}
+
+#nav_left > li > a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* gestion  des elements dans la navbar ------------------------------------------------*/
+
+#logo{
+    transition: transform 1s;
+    border-radius: 25%;
+}
+
+#logo:hover{
+    transform: rotateZ(360deg);
+}
+
+#nav_right img{
+    width: 40%;
+}
+
+#nav_right > li:last-child{
+    width:20%;
+}
+
+#nav_right button{
+    margin-right: 15%;
+    height: 1.5em;
+    width: 80%;
+}

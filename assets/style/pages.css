@@ -1,0 +1,65 @@
+/* accueil ----------------------------------------------*/
+
+#accueil{
+    display: flex;
+    background-image: url("../images/backgrounds/background_accueil.svg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+#accueil > div:not(:first-child) {
+    width: 50%;
+}
+
+#accueil_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#accueil_left_up{
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+#accueil_left_up > h1{
+    font-size: 60px;
+}
+
+#accueil_left_up > h2{
+    font-size: 40px;
+}
+
+#accueil_left_down h2{
+    position: relative;
+    top: 55%;
+    width: 275px;
+    left: 35%;
+}
+
+#accueil_left img{
+    width: 50%;
+    margin-left: 20%
+}
+
+#accueil_right img{
+    height: 100%;
+    margin-left: 21%;
+}
+
+/* projects ------------------------------------------------*/
+
+#projects {
+    background-image: url("../images/backgrounds/background_projets.svg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+/* about ------------------------------------------------*/
+
+#about {
+    background-image: url("../images/backgrounds/background_apropos.svg");
+    background-repeat: repeat-y;
+    background-size: cover;
+}
