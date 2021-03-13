@@ -8,14 +8,14 @@ html, body, main{
 @font-face {
     font-family: "Renogare";
     src:url("../fonts/Renogare-Regular.otf") format("truetype");
+
 }
 
 body{
     background-color: black;
     color: white;
     font-family:Renogare, sans-serif;
-
-
+    font-weight: lighter;
 }
 
 /* definition de base des boutons --------------------------*/

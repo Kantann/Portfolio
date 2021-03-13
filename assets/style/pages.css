@@ -43,6 +43,10 @@
     margin-left: 20%
 }
 
+#accueil_left_down h3{
+    font-weight: lighter;
+}
+
 #accueil_right img{
     height: 100%;
     margin-left: 21%;
@@ -55,6 +59,58 @@
     background-repeat: repeat-y;
     background-size: cover;
 }
+
+#projects > h1{
+    margin-left: 20%;
+    font-size: 300%;
+}
+
+#main_project{
+    display: flex;
+    width: auto;
+    height:80%;
+}
+
+#project_left{
+    margin-left: 16.666666666666666666666666666666666666666%;
+    width:16.6666666666%;
+
+}
+
+#yesweekend{
+width: 100%;
+margin-top: 20%;
+}
+
+#project_center_left{
+    width:16.666666666666666666666666666666666666666666666666%;
+}
+
+#nouvelleslangues{
+    width:100%;
+    margin-top: 40%;
+}
+
+#project_center_right{
+    width:16.6666666666666666666666666666666666666666666666666%;
+}
+
+#lavieliquide{
+    width:100%;
+}
+
+#project_right{
+    width:16.666666666666666666666666666666666666666666666666%;
+}
+
+#logodicentra{
+    width: 100%;
+    margin-top: 20%;
+    }
+
+
+
+
 
 /* about ------------------------------------------------*/
 
