@@ -45,19 +45,47 @@
             <div id="projects" class="page">
                 <div class="fake_navbar"></div>
                 <h1>Mes projets</h1>
-                <div id="main_project">
-                    <div id="project_left">
-                        <img src="assets/images/projets/YesWeekend.png" id="yesweekend">
+                <div id="slider">
+                    <button type="button" name="left" onclick="slide(-1);"><</button>
+                    <div id="slider_content">
+                        <div class="slider_child">
+                            <div>
+                                <img src="assets/images/projets/YesWeekend.png" id="yesweekend">
+                            </div>
+                            <div>
+                                <h2>YesWeekend</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                        <div class="slider_child">
+                            <div>
+                                <img src="assets/images/projets/Nouvelles Langues.png" id="nouvelleslangues">
+                            </div>
+                            <div>
+                                <h2>Nouvelles Langues</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                        <div class="slider_child">
+                            <div>
+                                <img src="assets/images/projets/lavieliquide.png" id="lavieliquide">
+                            </div>
+                            <div>
+                                <h2>La vie liquide</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                        <div class="slider_child">
+                            <div>
+                                <img src="assets/images/projets/logodicentra.png" id="logodicentra">
+                            </div>
+                            <div>
+                                <h2>Di centra</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div id="project_center_left">
-                        <img src="assets/images/projets/Nouvelles Langues.png" id="nouvelleslangues">
-                    </div>
-                    <div id="project_center_right">
-                        <img src="assets/images/projets/lavieliquide.png" id="lavieliquide">
-                    </div>
-                    <div id="project_right">
-                        <img src="assets/images/projets/logodicentra.png" id="logodicentra">
-                    </div>
+                    <button type="button" name="right" onclick="slide(1);">></button>
                 </div>
             </div>
             <div id="about" class="page">
@@ -77,5 +105,6 @@
         </main>
         <footer></footer>
         <script src="assets/scripts/contactButton.js" defer></script>
+        <script src="assets/scripts/slider.js" defer></script>
     </body>
 </html>
