@@ -2,6 +2,8 @@ function mod(n, m) {
   return ((n % m) + m) % m;
 }
 
+var pauseButton = document.getElementById("slider_pause");
+var slideRunning = true;
 var currentSlide = 0; //first displayed slide is always 0 by default
 var slider = document.getElementById("slider");
 var sliderChilds = document.querySelectorAll(".slider_child");
@@ -58,6 +60,15 @@ function showElem(elem){
     elem.style.opacity = "1";
 }
 
+function toggleSlideRunning(){
+    slideRunning = !slideRunning;
+    if(slideRunning){
+        pauseButton.textContent = "||";
+    }else{
+        pauseButton.textContent = "|>";
+    }
+}
+
 // --------------------------  MAIN  ---------------------------------------
 
 //hide all slide excepts selected one
@@ -68,3 +79,9 @@ for(var i = 0 ; i < slidesAvailable ; i++){
         showElem(sliderChilds[i]);
     }
 }
+
+setInterval(() => {
+    if(slideRunning){
+        slideRight();
+    }
+}, 7000);
