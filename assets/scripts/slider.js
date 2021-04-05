@@ -54,10 +54,12 @@ function sleep(ms) {
 
 function hideElem(elem){
     elem.style.opacity = "0";
+    elem.style.zIndex = "0";
 }
 
 function showElem(elem){
     elem.style.opacity = "1";
+    elem.style.zIndex = "1";
 }
 
 function toggleSlideRunning(){
