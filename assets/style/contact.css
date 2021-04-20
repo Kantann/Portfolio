@@ -17,6 +17,7 @@
 #contact_form > button{
     position: absolute;
     right: 5%;
+    bottom: 3%;
     margin-top: 20px;
     width: 15%;
     height: 2em;

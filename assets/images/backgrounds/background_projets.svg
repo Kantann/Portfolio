@@ -8,9 +8,11 @@
     <line x1="1280" x2="1280" y2="1303.65" style="fill: none;stroke: #121115;stroke-miterlimit: 10;stroke-width: 3px"/>
   </g>
   <g>
-    <line x1="2133.33" y1="180.15" x2="2133.33" y2="1303.65" style="fill: none;stroke: #ffd03b;stroke-miterlimit: 10;stroke-width: 3px"/>
-    <line x1="1280" y1="532.27" x2="1280" y2="1303.65" style="fill: none;stroke: #ffd03b;stroke-miterlimit: 10;stroke-width: 3px"/>
-    <line x1="853.33" y1="471.71" x2="853.33" y2="650.78" style="fill: none;stroke: #ffd03b;stroke-miterlimit: 10;stroke-width: 3px"/>
-    <line x1="426.67" y1="471.71" x2="426.67" y2="650.78" style="fill: none;stroke: #ffd03b;stroke-miterlimit: 10;stroke-width: 3px"/>
+    <line x1="2133.33" x2="2133.33" y2="329.53" style="fill: none;stroke: #ffd03b;stroke-miterlimit: 10;stroke-width: 3px"/>
+    <line x1="853.33" y1="1031.88" x2="853.33" y2="1254.81" style="fill: none;stroke: #ffd03b;stroke-miterlimit: 10;stroke-width: 3px"/>
+    <line x1="426.67" y1="88.93" x2="426.67" y2="266.57" style="fill: none;stroke: #ffd03b;stroke-miterlimit: 10;stroke-width: 3px"/>
   </g>
+  <line x1="1706.67" y1="538.41" x2="1706.67" y2="1184.82" style="fill: none;stroke: #ffd03b;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <line x1="2133.33" y1="803.65" x2="2133.33" y2="1313.12" style="fill: none;stroke: #ffd03b;stroke-miterlimit: 10;stroke-width: 3px"/>
+  <line x1="1280" y1="916.59" x2="1280" y2="1184.82" style="fill: none;stroke: #ffd03b;stroke-miterlimit: 10;stroke-width: 3px"/>
 </svg>
